@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>School Enrollment Form</title>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+	  <h1 class="title">School Enrollment Form</h1>
+	  <p id="currentTime"></p>
+
+
+	<form action="/submit.php" method="post">
+		<label for="username">Name of student:</label>
+		<input type="text" placeholder="Enter your name">
+		<label for="username">Father's Name:</label>
+		<input type="text" name="username">
+		<label for="email">Email ID:</label>
+		<input type="email" name="email">
+		<label for="phone">Contact No.:</label>
+		<input type="tel" placeholder="Enter">
+		<br>
+		<br>
+		<label for="address">Address:</label><br>
+		<textarea></textarea>
+		<br>
+		<br>
+		<label for="gender">Gender:</label>
+		<input type="radio" id="gender" name="gender" value="male">Male
+		<input type="radio" id="gender" name="gender" value="female">Female<br> <br>
+		<label for="url">Facebook URL:</label>
+		<input type="url" name="Facebook URL">
+		<label for="date">Date of Birth:</label>
+		<input type="date" name="date" required="This field is required">
+
+
+
+		<label for="aadhar">Aadhar No.:</label>
+		<input type="number" name="Aadhar">
+
+
+
+		<label for="State">State:</label>
+        <select name="states">
+        	<option value="Sel">Select</option>
+        	<option value="Pun">Punjab</option>
+        	<option value="Har">Haryana</option>
+        	<option value="Del">Delhi</option>
+        	<option value="Raj">Rajasthan</option>
+        	<option value="Ker">Kerala</option>
+        </select>
+        <label for="numeric">Pincode:</label>
+		<input type="number">
+		<br><br>
+
+		<label for="Enrollment">Class of enrollment:</label>
+        <select name="Enrollment">
+        	<option value="Sel">Select</option>
+        	<option value="Pun">1</option>
+        	<option value="Har">2</option>
+        	<option value="Del">3</option>
+        	<option value="Raj">4</option>
+        	<option value="Ker">5</option>
+        	<option value="Sel">6</option>
+        	<option value="Pun">7</option>
+        	<option value="Har">8</option>
+        	<option value="Del">9</option>
+        	<option value="Raj">10</option>
+        	<option value="Ker">11</option>
+        	<option value="Sel">12</option>
+        	</select>
+
+
+
+
+<label for="dropdown">Extra-Curricular:</label>
+        <select name="test" multiple>
+        	<option value="select">Select</option>
+        	<option value="music">Music</option>
+        	<option value="sports">Sports</option>
+        	<option value="language">Language</option>
+        </select>
+
+
+        <br>
+        <br>
+		<label for="upload">Photo upload:</label>
+		<input type="file" name="upload" required="This field is required">
+        <br>
+		<br>
+		<input type="Submit" value="Submit">
+		
+
+		
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</form>
+
+
+
+
+
+
+</body>
+</html>
